@@ -1,22 +1,25 @@
-# cra-template-tailwindcss-typescript
+# Assesment: Movies App
 
-A streamlined [Tailwind CSS v3.1](https://tailwindcss.com) template for [Create React App](https://github.com/facebook/create-react-app) in [TypeScript](https://www.typescriptlang.org/).
+This app is built with:
+- React (with Create-React-App starter template)
+- Typescript
+- Tailwind CSS for styling
+- Daisy-UI for custom Tailwind components
 
-> This template installs and sets up [Tailwind CSS](https://tailwindcss.com) with TypeScript support.
+It is hosted on Vercel via this [url]([https://movies-test-app-lyart.vercel.app](https://movies-test-app-lyart.vercel.app/)
+
 
 ## Usage
 
+First you have to clone the repository, then navigate to it via your terminal.
+
+Once inside the repository run the blow command to install node modules
+
 ```bash
-npx create-react-app --template tailwindcss-typescript
+npm i
 ```
+Once node modules have been imported, run the blow command to start the app
 
-## Credits
-
-This project was made possible thanks to the following projects.
-
-1. [GeoffSelby/cra-template-tailwindcss](https://github.com/GeoffSelby/cra-template-tailwindcss) - A streamlined Tailwind CSS template for Create React App (in JavaScript).
-2. [cra-template-typescript](https://github.com/facebook/create-react-app/tree/master/packages/cra-template-typescript) - An official TypeScript template for create-react-app.
-
-## License
-
-MIT © [Sung M. Kim](https://sung.codes)
+```bash
+npm start
+```
