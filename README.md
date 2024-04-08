@@ -32,3 +32,7 @@ Finally, run the blow command to start the app
 ```bash
 npm start
 ```
+
+## Credit
+
+Made by: Kevin Misigaro
