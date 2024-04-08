@@ -18,7 +18,16 @@ Once inside the repository run the blow command to install node modules
 ```bash
 npm i
 ```
-Once node modules have been imported, run the blow command to start the app
+This app uses an open Movie database API (https://search.imdbot.workers.dev/)
+
+So you need to add the Enviroment variables for the app to get the URLs
+
+```bash
+REACT_APP_API_URL=https://search.imdbot.workers.dev/?q
+REACT_APP_API_DETAILS_URL=https://search.imdbot.workers.dev/?tt
+```
+
+Finally, run the blow command to start the app
 
 ```bash
 npm start
