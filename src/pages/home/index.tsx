@@ -7,7 +7,7 @@ import { Movie } from "../../utils/interfaces";
 function Home() {
     const [movies, setMovies] = useState<Movie[]>([]);
     const [loading, setLoading] = useState<boolean>(true)
-    const [searchText, setSearchText] = useState<string>("Niram");
+    const [searchText, setSearchText] = useState<string>("Pirates");
   
     //function to fetch movies
     const fetchMovies = useCallback(async () => {
