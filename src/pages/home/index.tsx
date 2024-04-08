@@ -1,6 +1,5 @@
 import { useCallback, useEffect, useState } from "react";
 import LoadingDots from "../../components/LoadingDots";
-import MainLayout from "../../components/MainLayout";
 import MovieCard from "../../components/MovieCard";
 import axios from "axios";
 import { Movie } from "../../utils/interfaces";
@@ -39,7 +38,7 @@ function Home() {
     }, []);
   
     return (
-      <MainLayout>
+      <>
         <div className="flex flex-row justify-center gap-0 w-full">
           <input
             type="text"
@@ -72,7 +71,7 @@ function Home() {
             )
           }
         </div>
-      </MainLayout>
+      </>
 )}
 
 export default Home
