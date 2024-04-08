@@ -1,10 +1,10 @@
 import { ReactNode } from 'react'
-import Navbar from './navbar'
+import Navbar from './Navbar'
 
-function Layout({children}: {children : ReactNode}) {
+function MainLayout({children}: {children : ReactNode}) {
   return (
     <div>
-        <Navbar />
+        <Navbar/>
        <div className='px-20 pt-8'>
        {children}
        </div>
@@ -12,4 +12,4 @@ function Layout({children}: {children : ReactNode}) {
   )
 }
 
-export default Layout
+export default MainLayout
