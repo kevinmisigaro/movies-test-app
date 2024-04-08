@@ -3,6 +3,9 @@ module.exports = {
   theme: {
     extend: {},
   },
-  plugins: [],
+  plugins: [require("daisyui")],
+  daisyui: {
+    themes: []
+   },
   content: ["./src/**/*.{js,jsx,ts,tsx,html}", "./public/index.html"],
 };
