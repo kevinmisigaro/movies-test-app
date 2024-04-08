@@ -43,7 +43,7 @@ function Home() {
           <input
             type="text"
             onChange={handleTextChange}
-            placeholder="Search"
+            placeholder="Enter title.."
             className="border border-zinc-800 rounded-l-md px-2 w-24 md:w-[30vw]"
           />
           <div
