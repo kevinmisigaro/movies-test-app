@@ -6,7 +6,7 @@ This app is built with:
 - Tailwind CSS for styling
 - Daisy-UI for custom Tailwind components
 
-It is hosted on Vercel via this [url](https://movies-test-app-lyart.vercel.app/)
+The demo is hosted on Vercel via this [url](https://movies-test-app-lyart.vercel.app/)
 
 
 ## Usage
