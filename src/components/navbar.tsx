@@ -1,4 +1,4 @@
-function Navbar() {
+const Navbar = () => {
   return (
     <div className="navbar bg-zinc-800 text-white">
 
