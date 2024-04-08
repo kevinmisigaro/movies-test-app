@@ -16,9 +16,6 @@ function Home() {
         const response = await axios.get(
           `${process.env.REACT_APP_API_URL}=${searchText}`
         );
-  
-        console.log(response.data.description);
-    
         if(response){
           setLoading(false)
           setMovies(response.data.description);

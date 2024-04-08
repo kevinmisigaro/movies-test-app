@@ -22,10 +22,7 @@ function Details() {
       if (response) {
         setMovie(response.data.description[0]);
         setLoading(false);
-        console.log(response.data.description[0]);
-        
       }
-      console.log(response.data.description[0]);
     } catch (error) {
       console.log(error);
       setLoading(false);
